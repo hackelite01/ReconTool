@@ -17,7 +17,7 @@ sleep 1.5
 cd ..
 rm -rf ReconTool
 git clone https://github.com/hackelite01/ReconTool
-cd OPRecon
+cd ReconTool
 chmod +x run.sh
 printf "\n\e[1;92mRestarting ...\n\e[0m"
 bash run.sh
