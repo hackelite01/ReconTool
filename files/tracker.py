@@ -47,7 +47,7 @@ def main():
 		output = requests.get(api)
 		content = output.text
 		obj = json.loads(content)
-		country_code = obj['country_code']
+		country_prefix = obj['country_prefix']
 		country_name = obj['country_name']
 		location = obj['location']
 		carrier = obj['carrier']
